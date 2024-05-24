@@ -10,10 +10,23 @@ class BaseUI(QWidget):
         self.obj = args[0].titleBar
         self.MainWindow = args[0]
         self.MainWindow.setWindowTitle("<b>NeuraMade app</b>")
-        self.MainWindow.setGeometry(1, 1, 860, 600)
+        self.MainWindow.resize(560, 600)
 
-        self.vbox = QVBoxLayout(self)
         self.form = QFormLayout(self)
+        self.hbox = QHBoxLayout(self)
+
+        self.type_qlb = QLabel('Выберите тип задачи', self)
+
+        self.type_rb_reg = QRadioButton('Регрессия')
+        self.type_rb_cl = QRadioButton('Классификация')
+        self.type_rb_vis = QRadioButton('Компьютерное зрение')
+
+        self.hbox.addWidget(self.type_rb_reg)
+        self.hbox.addWidget(self.type_rb_cl)
+        self.hbox.addWidget(self.type_rb_vis)
+
+        self.form.addRow(self.type_qlb, self.hbox)
+        self.setLayout(self.form)
 
     def align(self):
         win = self.MainWindow
