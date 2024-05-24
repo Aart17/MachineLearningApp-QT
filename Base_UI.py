@@ -12,6 +12,9 @@ class BaseUI(QWidget):
         self.MainWindow.setWindowTitle("<b>NeuraMade app</b>")
         self.MainWindow.setGeometry(1, 1, 860, 600)
 
+        self.vbox = QVBoxLayout(self)
+        self.form = QFormLayout(self)
+
     def align(self):
         win = self.MainWindow
         desk = QApplication.desktop()

@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="Create project">
-      <change afterPath="$PROJECT_DIR$/Base_UI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/FramelessWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_UI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,7 @@
     "Python.Base_UI.executor": "Run",
     "Python.FramelessWindow.executor": "Run",
     "Python.MyAnimeList.executor": "Run",
+    "Python.hw_4_Anketa.executor": "Run",
     "Python.hw_4_toolbar.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "F:/PythonProjects/MachineLearning/MachineLearning_Craft/MachineLearning_CreateApp/modules"
@@ -51,7 +50,7 @@
       <recent name="F:\PythonProjects\MachineLearning\MachineLearning_Craft\MachineLearning_CreateApp\modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Base_UI">
+  <component name="RunManager" selected="Python.hw_5_RADIO">
     <configuration name="Base_UI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning_CreateApp" />
       <option name="ENV_FILES" value="" />
@@ -96,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MyAnimeList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hw_4_Anketa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning_CreateApp" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,11 +104,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../PyQT5/MyAnimeList" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Innopolis_module3" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../PyQT5/MyAnimeList/MyAnimeList.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Innopolis_module3/hw_4_Anketa.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,12 +139,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hw_5_RADIO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning_CreateApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Innopolis_module3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Innopolis_module3/hw_5_RADIO.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hw_5_RADIO" />
+        <item itemvalue="Python.hw_4_Anketa" />
         <item itemvalue="Python.Base_UI" />
         <item itemvalue="Python.FramelessWindow" />
         <item itemvalue="Python.hw_4_toolbar" />
-        <item itemvalue="Python.MyAnimeList" />
       </list>
     </recent_temporary>
   </component>
