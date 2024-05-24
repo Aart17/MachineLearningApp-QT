@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="adds first interface">
-      <change afterPath="$PROJECT_DIR$/images/choose_path.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_UI.py" afterDir="false" />
-    </list>
+    <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="add path form" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716534490894</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add path form">
+      <option name="closed" value="true" />
+      <created>1716588033865</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716588033865</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +249,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project" />
     <MESSAGE value="adds first interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds first interface" />
+    <MESSAGE value="add path form" />
+    <option name="LAST_COMMIT_MESSAGE" value="add path form" />
   </component>
 </project>
