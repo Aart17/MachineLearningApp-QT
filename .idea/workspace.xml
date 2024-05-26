@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="add path form">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Base_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_UI.py" afterDir="false" />
-    </list>
+    <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="remove examples part 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -29,6 +31,9 @@
     &quot;assignee&quot;: &quot;Aart17&quot;
   }
 }</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="ed47ed8035d03b79568e942e478479c6868b897d" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Aart17/MachineLearningApp-Qt.git&quot;,
@@ -49,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Base_UI.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FramelessWindow.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MyAnimeList.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw_4_Anketa.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw_4_toolbar.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.hw_5_RADIO.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw_7_base.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hw_9_SaveSettings.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/PythonProjects/MachineLearning/MachineLearning_Craft/MachineLearning_CreateApp/modules&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Base_UI.executor": "Run",
+    "Python.FramelessWindow.executor": "Run",
+    "Python.MyAnimeList.executor": "Run",
+    "Python.hw_4_Anketa.executor": "Run",
+    "Python.hw_4_toolbar.executor": "Debug",
+    "Python.hw_5_RADIO.executor": "Run",
+    "Python.hw_7_base.executor": "Run",
+    "Python.hw_9_SaveSettings.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "remove-examples",
+    "last_opened_file_path": "F:/PythonProjects/MachineLearning/MachineLearning_Craft/MachineLearning_CreateApp/example_datasets"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\aarrt17\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="4b8a4cd6-189f-4445-b519-1a17f0210870" reportId="Base_UI.py/qodana/2024-05-24" />
@@ -72,6 +77,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PythonProjects\MachineLearning\MachineLearning_Craft\MachineLearning_CreateApp\example_datasets" />
       <recent name="F:\PythonProjects\MachineLearning\MachineLearning_Craft\MachineLearning_CreateApp\modules" />
     </key>
   </component>
@@ -236,7 +242,47 @@
       <option name="project" value="LOCAL" />
       <updated>1716588033865</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add target form and TODO">
+      <option name="closed" value="true" />
+      <created>1716702865448</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716702865448</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create RegressionConstructor class">
+      <option name="closed" value="true" />
+      <created>1716705131722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716705131722</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add example datasets, add datasets file types">
+      <option name="closed" value="true" />
+      <created>1716707186497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716707186497</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add console output in user interface">
+      <option name="closed" value="true" />
+      <created>1716978431832</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716978431832</updated>
+    </task>
+    <task id="LOCAL-00008" summary="remove examples part 3">
+      <option name="closed" value="true" />
+      <created>1716981440392</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1716981440392</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +300,11 @@
     <MESSAGE value="Create project" />
     <MESSAGE value="adds first interface" />
     <MESSAGE value="add path form" />
-    <option name="LAST_COMMIT_MESSAGE" value="add path form" />
+    <MESSAGE value="add target form and TODO" />
+    <MESSAGE value="Add example datasets, add datasets file types" />
+    <MESSAGE value="Add console output in user interface" />
+    <MESSAGE value="Create RegressionConstructor class" />
+    <MESSAGE value="remove examples part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove examples part 3" />
   </component>
 </project>
