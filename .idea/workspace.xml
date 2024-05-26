@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="add path form" />
+    <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="add path form">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_UI.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,20 +49,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Base_UI.executor": "Run",
-    "Python.FramelessWindow.executor": "Run",
-    "Python.MyAnimeList.executor": "Run",
-    "Python.hw_4_Anketa.executor": "Run",
-    "Python.hw_4_toolbar.executor": "Debug",
-    "Python.hw_5_RADIO.executor": "Run",
-    "Python.hw_7_base.executor": "Run",
-    "Python.hw_9_SaveSettings.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/PythonProjects/MachineLearning/MachineLearning_Craft/MachineLearning_CreateApp/modules"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Base_UI.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FramelessWindow.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MyAnimeList.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw_4_Anketa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw_4_toolbar.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.hw_5_RADIO.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw_7_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hw_9_SaveSettings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/PythonProjects/MachineLearning/MachineLearning_Craft/MachineLearning_CreateApp/modules&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\aarrt17\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="4b8a4cd6-189f-4445-b519-1a17f0210870" reportId="Base_UI.py/qodana/2024-05-24" />
