@@ -13,15 +13,17 @@ class BaseUI(QWidget):
         self.MainWindow.setWindowTitle("<b>NeuraMade app</b>")
         self.MainWindow.resize(560, 600)
 
-        self.form = QFormLayout(self)
-        self.hbox = QHBoxLayout(self)
+        # Создание контейнеров выравнивания
+        self.main_form = QFormLayout(self)
+        self.type_hbox = QHBoxLayout(self)
         self.path_form = QFormLayout(self)
+        self.graph_hbox = QHBoxLayout(self)
 
         # Основной текст
         self.type_qlb = QLabel('Выберите тип задачи: ', self)
         self.path_qlb = QLabel('Введите путь к дата сету: : ', self)
         self.target_qlb = QLabel('Введите название целевой переменной: ', self)
-        self.graphs_qlb = QLabel('Выберите виды отображения результата: ', self)
+        self.graphs_qlb = QLabel('Выберите виды графиков отображения результата: ', self)
 
         # Варианты выбора и поля для ввода текста
         self.type_rb_reg = QRadioButton('Регрессия')
@@ -30,6 +32,10 @@ class BaseUI(QWidget):
         self.path_qle = QLineEdit(self)
         self.path_btn = QPushButton(icon=QIcon('images/choose_path.png'))
         self.target_qle = QLineEdit(self)
+        self.graphs_chb_hist = QCheckBox('Гистограмма')
+        self.graphs_chb_sct = QCheckBox('График разброса')
+        self.graphs_chb_mtrx = QCheckBox('Матрица соответствий')
+
         # Настройка полей ввода
         self.path_qle.setPlaceholderText('Your dataset path')
         self.path_qle.setFixedSize(300, 25)
@@ -37,25 +43,29 @@ class BaseUI(QWidget):
         self.path_btn.clicked.connect(self.choose_path)
         self.target_qle.setPlaceholderText('Пример: "Value"')
 
-        self.hbox.setSpacing(10)
-        self.hbox.addWidget(self.type_rb_reg)
-        self.hbox.addWidget(self.type_rb_cl)
-        self.hbox.addWidget(self.type_rb_vis)
+        # Настройка контейнеров выравнивания
+        self.type_hbox.setSpacing(10)
+        self.type_hbox.addWidget(self.type_rb_reg)
+        self.type_hbox.addWidget(self.type_rb_cl)
+        self.type_hbox.addWidget(self.type_rb_vis)
 
         self.path_form.addRow(self.path_qle, self.path_btn)
 
-        self.form.addRow(self.type_qlb, self.hbox)
-        self.form.addRow(self.path_qlb, self.path_form)
-        self.form.addRow(self.target_qlb, self.target_qle)
-        self.setLayout(self.form)
+        self.graph_hbox.addWidget(self.graphs_chb_hist)
+        self.graph_hbox.addWidget(self.graphs_chb_sct)
+        self.graph_hbox.addWidget(self.graphs_chb_mtrx)
+
+        self.main_form.addRow(self.type_qlb, self.type_hbox)
+        self.main_form.addRow(self.path_qlb, self.path_form)
+        self.main_form.addRow(self.target_qlb, self.target_qle)
+        self.main_form.addRow(self.graphs_qlb, self.graph_hbox)
+        self.setLayout(self.main_form)
 
     def choose_path(self):
         path = QFileDialog.getExistingDirectory(
             self, 'Open file', '')
         if path:
             self.path_qle.setText(path)
-        else:
-            raise 'Не выбран путь до файла'
 
     def align(self):
         win = self.MainWindow
