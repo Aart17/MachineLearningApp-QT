@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="remove examples part 3" />
+    <list default="true" id="42580186-4505-4a8e-a0be-12e0fbc28fad" name="Changes" comment="Add console output in user interface">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2024_14_11__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_29_05_2024_14_11__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base_UI.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base_UI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegressionConstructor.py" beforeDir="false" afterPath="$PROJECT_DIR$/RegressionConstructor.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +26,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,7 +35,7 @@
   }
 }</component>
   <component name="GitRewordedCommitMessages">
-    <option name="onto" value="ed47ed8035d03b79568e942e478479c6868b897d" />
+    <option name="onto" value="fb18e53a33bcbdcee8ed1099ddcc8031146f35d8" />
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -56,7 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Base_UI.executor": "Run",
+    "Python.Base_UI.executor": "Debug",
     "Python.FramelessWindow.executor": "Run",
     "Python.MyAnimeList.executor": "Run",
     "Python.hw_4_Anketa.executor": "Run",
@@ -64,8 +67,9 @@
     "Python.hw_5_RADIO.executor": "Run",
     "Python.hw_7_base.executor": "Run",
     "Python.hw_9_SaveSettings.executor": "Run",
+    "Python.task_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "remove-examples",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "F:/PythonProjects/MachineLearning/MachineLearning_Craft/MachineLearning_CreateApp/example_datasets"
   }
 }]]></component>
@@ -126,28 +130,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw_5_RADIO" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MachineLearning_CreateApp" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Innopolis_module3" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Innopolis_module3/hw_5_RADIO.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="hw_7_base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning_CreateApp" />
       <option name="ENV_FILES" value="" />
@@ -192,13 +174,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning_CreateApp" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Task1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Task1/task_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Base_UI" />
+        <item itemvalue="Python.task_2" />
         <item itemvalue="Python.hw_9_SaveSettings" />
         <item itemvalue="Python.hw_4_Anketa" />
         <item itemvalue="Python.hw_7_base" />
-        <item itemvalue="Python.hw_5_RADIO" />
       </list>
     </recent_temporary>
   </component>
@@ -274,15 +278,7 @@
       <option name="project" value="LOCAL" />
       <updated>1716978431832</updated>
     </task>
-    <task id="LOCAL-00008" summary="remove examples part 3">
-      <option name="closed" value="true" />
-      <created>1716981440392</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1716981440392</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,10 +297,9 @@
     <MESSAGE value="adds first interface" />
     <MESSAGE value="add path form" />
     <MESSAGE value="add target form and TODO" />
+    <MESSAGE value="Create RegressionConstructor class" />
     <MESSAGE value="Add example datasets, add datasets file types" />
     <MESSAGE value="Add console output in user interface" />
-    <MESSAGE value="Create RegressionConstructor class" />
-    <MESSAGE value="remove examples part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove examples part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add console output in user interface" />
   </component>
 </project>

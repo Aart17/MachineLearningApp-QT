@@ -16,10 +16,12 @@ class BaseUI(QWidget):
         self.MainWindow.resize(560, 600)
 
         # Вспомогательные переменные
-        self.datasets_types = {'file': ['*.csv', '*.xls', '*.xml', '*.db', '*.xls', '*.fwf', '*.json'],
+        self.datasets_types = {'file': ['*.csv', '*.xls', '*.xml', '*.db', '*.fwf', '*.json'],
                                'dir': ''}
         self.dataset_info = {}
         self.model_context = {}
+        self.cons_styles = {'error': lambda text: f'<h2 style="color: red;">{text}<h2>',
+                            'accuracy': lambda text: f'<h2 style="color: green;">{text}<h2>'}
 
         # Создание контейнеров выравнивания
         self.main_vbox = QVBoxLayout(self)
@@ -55,7 +57,7 @@ class BaseUI(QWidget):
         self.path_btn.setFixedSize(15, 15)
         self.path_btn.clicked.connect(self.choose_path)
         self.target_qle.setPlaceholderText('Пример: "Value"')
-        self.path_btn.clicked.connect(self.create_model)
+        self.create_btn.clicked.connect(self.create_model)
         self.console_qte.setFixedHeight(200)
 
         # Настройка контейнеров выравнивания
@@ -91,13 +93,42 @@ class BaseUI(QWidget):
                 self, 'Open file', '', f"Datasets files ({sup_types})"
             )[0]
             self.dataset_info['file_type'] = self.dataset_info['path'].split('.')[-1]
-        else:
-            raise 'Path error'
+
         if self.dataset_info['path']:
             self.path_qle.setText(self.dataset_info['path'])
 
     def create_model(self):
-        pass
+        if self.type_rb_vis.isChecked():
+            model_type = self.type_rb_vis.text()
+        elif self.type_rb_reg.isChecked():
+            model_type = self.type_rb_reg.text()
+        elif self.type_rb_cl.isChecked():
+            model_type = self.type_rb_cl.text()
+        else:
+            return self.console_qte.write(self.cons_styles['error']('Вы не выбрали тип'))
+
+        if self.dataset_info['path'] is False:
+            return self.console_qte.write(self.cons_styles['error']('Вы не указали путь'))
+
+        target_v = self.target_qle.text()
+        if target_v is False:
+            return self.console_qte.write(self.cons_styles['error']('Вы не целевую переменную'))
+
+        graphics = {'hist': self.graphs_chb_hist.isChecked(),
+                    'sct': self.graphs_chb_sct.isChecked(),
+                    'mtrx': self.graphs_chb_mtrx.isChecked()}
+
+        model_context = {'type': model_type,
+                         'data_path': self.dataset_info['path'],
+                         'file_type': self.dataset_info['file_type'],
+                         'target_value': target_v,
+                         'graphics': graphics}
+
+        match model_type:
+            case 'Регрессия':
+                from RegressionConstructor import RegressionConstructor
+                model = RegressionConstructor(data_context=model_context)
+                model.construct_model()
 
     def align(self):
         win = self.MainWindow
@@ -118,12 +149,9 @@ class ConsoleTextEdit(QTextEdit):
         self.all_output = []
         sys.stdout = self
 
-    def setText(self, text, p_str=None):
-        self.write(text)
-
     def write(self, text):
         self.all_output.append(text)
-        self.setText(''.join(self.all_output))
+        self.setHtml(''.join(self.all_output))
 
 
 if __name__ == "__main__":
